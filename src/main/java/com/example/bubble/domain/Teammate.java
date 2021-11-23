@@ -12,8 +12,8 @@ public class Teammate {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_teammate")
     private Long idTeammate;
-
 
     @OneToOne
     private User user;
