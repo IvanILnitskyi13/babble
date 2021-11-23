@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Getter
 @Setter
@@ -19,4 +20,7 @@ public class Workspace {
 
     @ManyToOne
     private UserAccount userAccount;
+
+    @OneToMany
+    private List<Channel> channels;
 }
