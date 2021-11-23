@@ -13,6 +13,7 @@ public class AttachedUser {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_attached_user")
     private Long idAttachedUser;
 
     @OneToOne
@@ -20,5 +21,8 @@ public class AttachedUser {
 
     @OneToOne
     private Channel channel;
+
+    @OneToOne
+    private Message message;
 
 }
