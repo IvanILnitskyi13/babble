@@ -19,6 +19,6 @@ public class UserAccount {
     private User user;
 
     @OneToMany(cascade = CascadeType.REMOVE)
-    private List<UserWorkspaces> userWorksSpaces;
+    private List<Workspace> userWorksSpaces;
 
 }
