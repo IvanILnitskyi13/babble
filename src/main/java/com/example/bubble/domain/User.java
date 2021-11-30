@@ -2,6 +2,7 @@ package com.example.bubble.domain;
 
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -9,6 +10,7 @@ import javax.validation.constraints.NotNull;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @Entity
 @Table(name="user")
 public class User {
@@ -26,7 +28,7 @@ public class User {
     private String password;
     private Byte[] avatar;
 
-    @OneToOne(cascade = CascadeType.REMOVE)
+    @OneToOne(mappedBy = "user")
     private UserAccount userAccount;
 
     public User(@NotNull String email, String login, @NotNull String password) {

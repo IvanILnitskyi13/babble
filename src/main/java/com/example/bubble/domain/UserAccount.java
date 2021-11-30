@@ -9,6 +9,7 @@ import java.util.List;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @Entity
 @Table(name = "user_accounts")
 public class UserAccount {
@@ -18,15 +19,15 @@ public class UserAccount {
     @Column(name = "id_user_account")
     private Long idUserAccount;
 
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private User user;
 
 //    @OneToMany(cascade = CascadeType.REMOVE)
 //    private List<Workspace> userWorksSpaces;
 
 
-    public UserAccount() {
-    }
+//    public UserAccount() {
+//    }
 
     public UserAccount(User user) {
         this.user = user;
