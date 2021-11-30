@@ -1,5 +1,6 @@
 package com.example.bubble.domain;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -28,4 +29,9 @@ public class User {
     @OneToOne(cascade = CascadeType.REMOVE)
     private UserAccount userAccount;
 
+    public User(@NotNull String email, String login, @NotNull String password) {
+        this.email = email;
+        this.login = login;
+        this.password = password;
+    }
 }

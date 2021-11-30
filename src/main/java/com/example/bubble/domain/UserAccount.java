@@ -1,6 +1,7 @@
 package com.example.bubble.domain;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -20,7 +21,14 @@ public class UserAccount {
     @OneToOne
     private User user;
 
-    @OneToMany(cascade = CascadeType.REMOVE)
-    private List<Workspace> userWorksSpaces;
+//    @OneToMany(cascade = CascadeType.REMOVE)
+//    private List<Workspace> userWorksSpaces;
 
+
+    public UserAccount() {
+    }
+
+    public UserAccount(User user) {
+        this.user = user;
+    }
 }
