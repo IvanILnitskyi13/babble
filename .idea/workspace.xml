@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b8f58a9-ab85-4179-b078-9bddf0a3c33c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/resources/static/css/loginForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/resources/static/css/mainPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/resources/static/css/registerForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/resources/static/img/login.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/BubbleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/BabbleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/domain/AttachedUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/model/AttachedUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/domain/Channel.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/model/Channel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/domain/Teammate.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/model/Teammate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/domain/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/model/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/domain/Workspace.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/model/Workspace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/service/AttachedUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/service/AttachedUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/service/ChannelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/service/ChannelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/service/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/service/MessageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/service/TeammateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/service/TeammateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/service/UserAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/service/UserAccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/service/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/service/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/service/WorkspaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/service/WorkspaceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/example/bubble/temporaryData/TemporaryData.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/example/babble/temporaryData/TemporaryData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/templates/loginForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/templates/loginForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/templates/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/templates/mainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/templates/registerForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/templates/registerForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/test/java/com/example/bubble/BubbleApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/test/java/com/example/babble/BubbleApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/back" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="21HoCeJ80Tz5P6VXnWvr9xPsscg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/back" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1 - back\1. Projects\1. bubble\src\main\resources\static\img" />
+      <recent name="D:\1 - back\1. Projects\1. bubble\src\main\resources\static" />
+      <recent name="D:\1 - back\1. Projects\1. bubble\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BabbleApplication">
+    <configuration name="generated-requests#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="BabbleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bubble" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.babble.BabbleApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests#5" />
+      <item itemvalue="Spring Boot.BabbleApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests#5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b8f58a9-ab85-4179-b078-9bddf0a3c33c" name="Changes" comment="" />
+      <created>1637607253449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637607253449</updated>
+      <workItem from="1637607255450" duration="1058000" />
+      <workItem from="1637685795064" duration="12154000" />
+      <workItem from="1638288263699" duration="8651000" />
+      <workItem from="1643573005174" duration="2519000" />
+      <workItem from="1643575766980" duration="2664000" />
+      <workItem from="1644234788394" duration="664000" />
+      <workItem from="1645261154274" duration="87000" />
+      <workItem from="1645306817169" duration="113000" />
+      <workItem from="1645306952412" duration="65000" />
+      <workItem from="1645307034321" duration="1541000" />
+      <workItem from="1647683446248" duration="3615000" />
+      <workItem from="1647779303327" duration="2712000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="startingDirectory" value="D:\1 - back\1. Projects\1. bubble\src\main\java\com\example\bubble" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647687740168">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687740168" />
+    <state x="689" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1647687708153">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="689" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687708153" />
+    <state x="681" y="269" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1647687683746">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="681" y="269" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687683746" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1647784349064">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647784349064" />
+    <state x="2660" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1645307983275" />
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1647687986971">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687986971" />
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1645309031698" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1647687986971">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687986971" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1645309031698" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1647687986971">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687986971" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1645309031698" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1647687986971">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687986971" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1645309031698" />
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom" timestamp="1647687986971">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687986971" />
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1645309031699" />
+    <state width="1877" height="324" key="GridCell.Tab.1.center" timestamp="1647687986971">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687986971" />
+    <state width="1877" height="324" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1645309031699" />
+    <state width="1877" height="324" key="GridCell.Tab.1.left" timestamp="1647687986971">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687986971" />
+    <state width="1877" height="324" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1645309031698" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right" timestamp="1647687986971">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687986971" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1645309031699" />
+    <state x="762" y="152" key="SettingsEditor" timestamp="1647684088360">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="762" y="152" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647684088360" />
+    <state x="723" y="219" width="1498" height="1037" key="dock-window-1" timestamp="1647687525563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="723" y="219" width="1498" height="1037" key="dock-window-1/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647687525563" />
+    <state x="953" y="0" width="974" height="1057" key="dock-window-2" timestamp="1643577551116">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="953" y="0" width="974" height="1057" key="dock-window-2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1643577551116" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1647684153399">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1647684153399" />
+  </component>
+</project>

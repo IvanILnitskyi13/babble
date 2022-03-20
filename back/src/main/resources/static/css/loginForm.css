@@ -1,0 +1,33 @@
+:root {
+    --color-purple: #7b2ec9;
+    --color-black: #000;
+    --color-white: #fff;
+}
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: var(--color-purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /*width: 20rem;*/
+    /*height: 10rem;*/
+    background-color: var(--color-white);
+    display: flex;
+}
+
+.right {
+    width: 50%;
+    background-image: url("./img/login.jpg}");
+}
+
